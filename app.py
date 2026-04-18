@@ -112,6 +112,14 @@ HTML = """<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ClearDoc — Customs Compliance Checker</title>
+
+<!-- Open Graph tags for LinkedIn/social previews -->
+<meta property="og:title" content="ClearDoc — AI Customs Compliance Checker">
+<meta property="og:description" content="Upload a shipping document and get an instant compliance report. Catches invalid HTS codes, weight discrepancies, currency mismatches, and missing fields.">
+<meta property="og:image" content="https://raw.githubusercontent.com/irfaan-mukul/cleardoc/main/cleardoc_preview.png">
+<meta property="og:url" content="https://cleardoc.onrender.com">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {
